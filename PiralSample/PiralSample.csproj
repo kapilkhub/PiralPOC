@@ -1,0 +1,23 @@
+﻿<Project Sdk="Piral.Blazor.Sdk/0.4.0">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+	  <Version>0.1.0</Version>
+	  <AppShell>
+		PiralSample.Emulator/1.0.0
+	  </AppShell>
+  </PropertyGroup>
+
+  <ItemGroup>
+	
+    <PackageReference Include="Piral.Blazor.Orchestrator" Version="0.4.1" />
+    <PackageReference Include="Piral.Blazor.Shared" Version="0.4.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="dist\" />
+  </ItemGroup>
+
+</Project>
